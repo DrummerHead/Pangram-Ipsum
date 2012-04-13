@@ -14,7 +14,7 @@ body {
   height: 100%;
   width: 100%;
 }
-header {
+[role='banner'] {
   width: 18em;
   height: 4em;
   position: absolute;
@@ -34,25 +34,25 @@ header {
        -o-transform: rotate(-90deg);
           transform: rotate(-90deg);
 }
-header h1,
-header p {
+[role='banner'] h1,
+[role='banner'] p {
   margin: 0;
   line-height: 1;
 }
-header h1 {
+[role='banner'] h1 {
   font-size: 2em;
 }
-header p {
+[role='banner'] p {
   font-size: 1.2em;
 }
-header a {
+[role='banner'] a {
   text-decoration: none;
   color: #227;
   border-bottom: 1px dotted #227;
   transform: border 8s linear;
   -moz-transition: all 2s ease-out;
 }
-header a:hover {
+[role='banner'] a:hover {
   color: blue;
   border-color: blue;
 }
@@ -73,7 +73,7 @@ textarea {
   textarea {
     width: 84%;
   }
-  header {
+  [role='banner'] {
     right: 4em;
   }
 }
