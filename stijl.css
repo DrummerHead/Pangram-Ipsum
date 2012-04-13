@@ -61,6 +61,7 @@ textarea {
   height: 88%;
   margin: 3em 0 0 3em;
   padding: 1em;
+  cursor: text;
 }
 
 @media (max-width: 1447px) {
